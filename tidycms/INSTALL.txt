@@ -1,0 +1,21 @@
+TidyCMS - Connector ZIP quick install
+
+More info: http://tidycms.com/docs/#h-installation
+
+Prerequisites:
+
+	* Webhost / localhost with PHP 5.3 support
+	* Site with static .html files that require a CMS
+	* For production sites, use HTTPS (not required but totally recommended!)
+
+Install:
+
+	1. Upload / copy this unzipped tidycms folder to same folder where your index.html file is on the webserver
+	   * If your website is on a server, upload unzipped tidycms folder with your FTP client
+	   * If you are using a localhost environment, just copy and paste to the same folder where index.html is.
+
+	2. Go with browser to your website address and add tidycms/ to your url
+	   * eg: http://mywebsite.om/tidycms/ or http://localhost/path/to/site/tidycms/
+	
+	3. Read more from http://tidycms.com/docs/
+

@@ -1,0 +1,20 @@
+{
+  "name": "westmont-ptsa",
+  "version": "0.0.0",
+  "authors": [
+    "Corey Mason"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "westmontptsa.org",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "latest"
+  }
+}
