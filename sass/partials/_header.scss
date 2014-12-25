@@ -4,6 +4,12 @@ header {
 }
 
 @media (min-width: 768px) {
+  .navbar {
+    margin:0px;
+    border:none;
+    min-height:0px !important;
+  }
+
   .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -12,27 +18,30 @@ header {
 
   .navbar .navbar-collapse {
     text-align: center;
-    box-shadow: 0 1px 10px rgba(0,0,0,0.1);
   }
 
   .navbar-default {
-    background-color: rgba(255,255,255,1) !important;
+    background:rgba(255,255,255,.8) !important;
     border-color:transparent !important;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.1);
   }
-}
 
-.navbar .nav > li > a {
-  color: #414141;
-  border-top: 0px solid transparent;
-  text-shadow: none;
-  font-size: 14px;
-  padding: 12px 20px;
-  transition: all 0.3s ease-in-out;
+  .navbar .nav > li > a {
+    color: #414141;
+    border-top: 0px solid transparent;
+    text-shadow: none;
+    font-size: 14px;
+    padding: 12px 20px;
+    transition: all 0.3s ease-in-out;
+  }
 
-}
+  .navbar .nav > li > a:focus,
+  .navbar .nav > li > a:hover {
+    background: #080808 !important;
+    color: #fff;
+  }
 
-.navbar .nav > li > a:focus,
-.navbar .nav > li > a:hover {
-  background: #080808 !important;
-  color: #fff;
+  .navigation {
+    height: 38px !important;
+  }
 }

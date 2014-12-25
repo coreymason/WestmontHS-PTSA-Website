@@ -61,7 +61,7 @@ module.exports = function(grunt) {
             	options: {
             		livereload: true
             	},
-                files: ['*.css', '*.php'] //still need js and images
+                files: ['*.css', '*.php', 'js/*.js'] //still need js and images
             }
         },
         copy: {
@@ -102,7 +102,7 @@ module.exports = function(grunt) {
         },
         'ftp-deploy': {
         	deploy: {
-        		
+
         	}
         }
     });
