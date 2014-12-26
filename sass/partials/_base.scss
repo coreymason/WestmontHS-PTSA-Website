@@ -1,3 +1,41 @@
 body {
   font-family:"Lato", sans-serif;
 }
+
+.page-title {
+  margin: 30px 0px 20px 0px;
+  padding: 15px 40px;
+}
+.page-title h2 {
+  display: inline-block;
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  position: relative;
+}
+.page-title h2:before,
+.page-title h2:after {
+  display: block;
+  height: 1px;
+  content: " ";
+  width: 40%;
+  position: absolute;
+  top: 0.53em;
+  z-index: 1;
+}
+.page-title h2:before {
+  background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
+  left: 0;
+}
+.page-title h2:after {
+  background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+  right: 0;
+  left: auto;
+}
+.page-title h2 span {
+  padding: 0px 10px;
+  position: relative;
+  z-index: 2;
+}

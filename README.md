@@ -2,7 +2,7 @@
 
 ## Synopsis:
 
-### Current Version: 0.0.0
+### Current Version: In Development
 
 This repository hosts the Westmont High School PTSA website, http://www.westmontptsa.org. This project utilizes Bower to maintain packages and Grunt as a taskrunner; both ruby and Node.js are required for development.
 

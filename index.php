@@ -42,7 +42,7 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
               <ul class="nav navbar-nav">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#">Bulletin</a></li>
+                <li><a href="#bulletin">Bulletin</a></li>
                 <li><a href="#">About Us</a></li>
               </ul>
             </div>
@@ -102,6 +102,34 @@
     </div>
   </div>
 
+  <div id="bulletin">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 page-title">
+          <h2><span>Bulletin</span></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-9">
+          <div class="embed-responsive embed-responsive-16by9">
+            <div class="embed-responsive-item" id="player"></div>
+          </div>
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis augue lacus, sed pharetra dolor laoreet et. Sed convallis eu arcu tincidunt porttitor. Pellentesque aliquam tincidunt lectus, ac bibendum ligula egestas non. Nullam fringilla efficitur finibus. Curabitur blandit pharetra tellus, sit amet semper lacus. Proin malesuada tempor laoreet. Sed a convallis nisi. Aenean ac ligula augue. In lacus elit, dapibus vel felis a, ultricies auctor eros. Pellentesque et tortor mattis, hendrerit lorem eu, varius sapien. Nulla non finibus orci, vel feugiat nulla. Integer auctor egestas eros, faucibus mollis augue tincidunt id. Nam id hendrerit ante.
+
+          Proin diam massa, tristique non rhoncus ac, bibendum at tellus. In mauris metus, rutrum id consectetur et, finibus a quam. Fusce sodales pretium mattis. Maecenas porttitor facilisis felis, vestibulum consectetur dui rutrum nec. Suspendisse non commodo erat, a lacinia augue. Aliquam erat volutpat. Praesent quam ex, placerat nec nisi ac, aliquet congue nunc.
+
+          Vestibulum urna sem, posuere in massa et, convallis ultricies erat. Quisque in mi efficitur, facilisis ante id, scelerisque metus. Maecenas at augue sapien. Sed scelerisque ultricies leo, eget vestibulum velit dapibus non. Nam fringilla vestibulum lectus, vel rhoncus ipsum suscipit eget. Sed fermentum consequat justo ac tempus. Integer pretium scelerisque dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec laoreet tempor sem in aliquam. Praesent ornare ipsum eget ipsum tempor rutrum. Suspendisse et nisi sit amet quam hendrerit consequat in at odio. Maecenas vehicula molestie velit, eu sagittis arcu vestibulum id. Phasellus aliquam massa sit amet orci porta, at lobortis quam viverra. Quisque rutrum hendrerit lectus, sit amet fringilla felis faucibus nec. Morbi iaculis eros ac tortor auctor sollicitudin eu et purus.
+
+          Sed odio risus, cursus sit amet tincidunt sit amet, ultricies id purus. Sed imperdiet eu neque et maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam quam lectus, sagittis non suscipit vitae, vehicula quis nunc. Donec dui velit, feugiat ultrices sem eget, pharetra venenatis felis. Integer lectus nulla, porta id nibh a, consequat dapibus erat. Pellentesque consequat ut felis quis pellentesque. Cras ullamcorper eget ante ac condimentum. Sed at sapien id eros scelerisque posuere sed at quam.
+
+          Duis viverra convallis ante in pretium. Donec et leo ut leo ultrices finibus eget vitae turpis. Curabitur lorem quam, bibendum a posuere quis, hendrerit vel ante. Vestibulum non elementum purus. Aenean sagittis quam non nibh pellentesque vulputate. Cras volutpat dapibus leo, at imperdiet lorem molestie non. Nunc eu mauris vel nisi euismod tempus ac at risus. Ut tempor quis odio id elementum. Donec bibendum arcu in turpis vehicula porttitor. Donec volutpat libero ac faucibus tincidunt. Pellentesque bibendum tortor augue, at tempus sapien iaculis at. In hac habitasse platea dictumst. Nulla pretium eget massa sed posuere. Nullam turpis nisi, tempor nec tincidunt non, pretium id nunc. Donec pellentesque, diam at posuere lacinia, nisi mauris molestie tortor, id dignissim sem odio ut dui. Mauris in arcu ac mauris pulvinar dictum sit amet at dolor.
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer>
 
   </footer>
@@ -110,74 +138,7 @@
   <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
   <script src="js/jquery.ba-cond.min.js"></script>
   <script src="js/jquery.slitslider.js"></script>
-  <script type="text/javascript">
-    $(function() {
-
-      var Page = (function() {
-
-        var $navArrows = $( '#nav-arrows' ),
-        $nav = $( '#nav-dots > span' ),
-        slitslider = $( '#slider' ).slitslider( {
-          onBeforeChange : function( slide, pos ) {
-
-            $nav.removeClass( 'nav-dot-current' );
-            $nav.eq( pos ).addClass( 'nav-dot-current' );
-
-          }
-        } ),
-
-        init = function() {
-
-          initEvents();
-
-        },
-        initEvents = function() {
-
-          // add navigation events
-          $navArrows.children( ':last' ).on( 'click', function() {
-
-            slitslider.next();
-            return false;
-
-          } );
-
-          $navArrows.children( ':first' ).on( 'click', function() {
-
-            slitslider.previous();
-            return false;
-
-          } );
-
-          $nav.each( function( i ) {
-
-            $( this ).on( 'click', function( event ) {
-
-              var $dot = $( this );
-
-              if( !slitslider.isActive() ) {
-
-                $nav.removeClass( 'nav-dot-current' );
-                $dot.addClass( 'nav-dot-current' );
-
-              }
-
-              slitslider.jump( i + 1 );
-              return false;
-
-            } );
-
-          } );
-
-        };
-
-        return { init : init };
-
-      })();
-
-      Page.init();
-
-    });
-  </script>
+  <script src="js/video-bulletin.js"></script>
 
 </body>
 </html>

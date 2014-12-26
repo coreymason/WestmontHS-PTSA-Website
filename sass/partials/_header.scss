@@ -3,6 +3,10 @@ header {
   background: rgba(255,255,255,1) !important;
 }
 
+.navbar-fixed-top {
+  z-index: 9999;
+}
+
 @media (min-width: 768px) {
   .navbar {
     margin:0px;
