@@ -1,0 +1,32 @@
+#about {
+  background: #5bc2ce;
+  color: #fff;
+}
+#about i {
+  color: #5bc2ce;
+}
+#about h2 span{
+  background: #5bc2ce;
+}
+
+.icon-box {
+  text-align: center;
+  padding: 20px 10px 10px 10px;
+}
+.icon-box h3 {
+  margin: 20px auto 10px auto;
+}
+.icon-box p {
+  float: left;
+}
+.icon-box i {
+  font-size: 44px;
+  display: inline-block;
+  border-radius: 50em;
+  background: #fff;
+  padding: 45px 45px;
+}
+
+#about .table {
+  background-color: darken(#5bc2ce, 15%);
+}

@@ -43,7 +43,7 @@
               <ul class="nav navbar-nav">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#bulletin">Bulletin</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="#about">About Us</a></li>
               </ul>
             </div>
           </nav>
@@ -59,7 +59,7 @@
           <div class="sl-slide-inner">
             <div class="deco" data-icon="P"></div>
             <h2>A bene placito</h2>
-            <blockquote><p>You have just dined, and however scrupulously the slaughterhouse is concealed in the graceful distance of miles, there is complicity.</p><cite>Ralph Waldo Emerson</cite></blockquote>
+            <div class="sl-text"><p>You have just dined, and however scrupulously the slaughterhouse is concealed in the graceful distance of miles, there is complicity.</p><cite>Ralph Waldo Emerson</cite></div>
           </div>
         </div>
 
@@ -67,7 +67,7 @@
           <div class="sl-slide-inner">
             <div class="deco" data-icon="T"></div>
             <h2>Regula aurea</h2>
-            <blockquote><p>Until he extends the circle of his compassion to all living things, man will not himself find peace.</p><cite>Albert Schweitzer</cite></blockquote>
+            <div class="sl-text"><p>Until he extends the circle of his compassion to all living things, man will not himself find peace.</p><cite>Albert Schweitzer</cite></div>
           </div>
         </div>
 
@@ -75,7 +75,7 @@
           <div class="sl-slide-inner">
             <div class="deco" data-icon="S"></div>
             <h2>Dum spiro, spero</h2>
-            <blockquote><p>Thousands of people who say they 'love' animals sit down once or twice a day to enjoy the flesh of creatures who have been utterly deprived of everything that could make their lives worth living and who endured the awful suffering and the terror of the abattoirs.</p><cite>Dame Jane Morris Goodall</cite></blockquote>
+            <div class="sl-text"><p>Thousands of people who say they 'love' animals sit down once or twice a day to enjoy the flesh of creatures who have been utterly deprived of everything that could make their lives worth living and who endured the awful suffering and the terror of the abattoirs.</p><cite>Dame Jane Morris Goodall</cite></div>
           </div>
         </div>
 
@@ -83,7 +83,7 @@
           <div class="sl-slide-inner">
             <div class="deco" data-icon="A"></div>
             <h2>Donna nobis pacem</h2>
-            <blockquote><p>The human body has no more need for cows' milk than it does for dogs' milk, horses' milk, or giraffes' milk.</p><cite>Michael Klaper M.D.</cite></blockquote>
+            <div class="sl-text"><p>The human body has no more need for cows' milk than it does for dogs' milk, horses' milk, or giraffes' milk.</p><cite>Michael Klaper M.D.</cite></div>
           </div>
         </div>
       </div>
@@ -110,21 +110,152 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-9 player">
           <div class="embed-responsive embed-responsive-16by9">
             <div class="embed-responsive-item" id="player"></div>
           </div>
         </div>
         <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis augue lacus, sed pharetra dolor laoreet et. Sed convallis eu arcu tincidunt porttitor. Pellentesque aliquam tincidunt lectus, ac bibendum ligula egestas non. Nullam fringilla efficitur finibus. Curabitur blandit pharetra tellus, sit amet semper lacus. Proin malesuada tempor laoreet. Sed a convallis nisi. Aenean ac ligula augue. In lacus elit, dapibus vel felis a, ultricies auctor eros. Pellentesque et tortor mattis, hendrerit lorem eu, varius sapien. Nulla non finibus orci, vel feugiat nulla. Integer auctor egestas eros, faucibus mollis augue tincidunt id. Nam id hendrerit ante.
+          <div class="page-title-sub">
+            <h3>Daily Bulletin ##/##/##</h3>
+          </div>
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+            <li>Aliquam tincidunt mauris eu risus.</li>
+            <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+            <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat.</li>
+            <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+            <li>Praesent placerat risus quis eros.</li>
+            <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+            <li>Donec quis dui at dolor tempor interdum.</li>
+            <li>Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus.</li>
+            <li>Nulla sed leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+            <li>Nulla sed leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+            <li>Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna.</li>
+            <li>Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          Proin diam massa, tristique non rhoncus ac, bibendum at tellus. In mauris metus, rutrum id consectetur et, finibus a quam. Fusce sodales pretium mattis. Maecenas porttitor facilisis felis, vestibulum consectetur dui rutrum nec. Suspendisse non commodo erat, a lacinia augue. Aliquam erat volutpat. Praesent quam ex, placerat nec nisi ac, aliquet congue nunc.
-
-          Vestibulum urna sem, posuere in massa et, convallis ultricies erat. Quisque in mi efficitur, facilisis ante id, scelerisque metus. Maecenas at augue sapien. Sed scelerisque ultricies leo, eget vestibulum velit dapibus non. Nam fringilla vestibulum lectus, vel rhoncus ipsum suscipit eget. Sed fermentum consequat justo ac tempus. Integer pretium scelerisque dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec laoreet tempor sem in aliquam. Praesent ornare ipsum eget ipsum tempor rutrum. Suspendisse et nisi sit amet quam hendrerit consequat in at odio. Maecenas vehicula molestie velit, eu sagittis arcu vestibulum id. Phasellus aliquam massa sit amet orci porta, at lobortis quam viverra. Quisque rutrum hendrerit lectus, sit amet fringilla felis faucibus nec. Morbi iaculis eros ac tortor auctor sollicitudin eu et purus.
-
-          Sed odio risus, cursus sit amet tincidunt sit amet, ultricies id purus. Sed imperdiet eu neque et maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam quam lectus, sagittis non suscipit vitae, vehicula quis nunc. Donec dui velit, feugiat ultrices sem eget, pharetra venenatis felis. Integer lectus nulla, porta id nibh a, consequat dapibus erat. Pellentesque consequat ut felis quis pellentesque. Cras ullamcorper eget ante ac condimentum. Sed at sapien id eros scelerisque posuere sed at quam.
-
-          Duis viverra convallis ante in pretium. Donec et leo ut leo ultrices finibus eget vitae turpis. Curabitur lorem quam, bibendum a posuere quis, hendrerit vel ante. Vestibulum non elementum purus. Aenean sagittis quam non nibh pellentesque vulputate. Cras volutpat dapibus leo, at imperdiet lorem molestie non. Nunc eu mauris vel nisi euismod tempus ac at risus. Ut tempor quis odio id elementum. Donec bibendum arcu in turpis vehicula porttitor. Donec volutpat libero ac faucibus tincidunt. Pellentesque bibendum tortor augue, at tempus sapien iaculis at. In hac habitasse platea dictumst. Nulla pretium eget massa sed posuere. Nullam turpis nisi, tempor nec tincidunt non, pretium id nunc. Donec pellentesque, diam at posuere lacinia, nisi mauris molestie tortor, id dignissim sem odio ut dui. Mauris in arcu ac mauris pulvinar dictum sit amet at dolor.
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 page-title">
+          <h2><span>About Us</span></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 page-title-sub">
+          <h3>Do you want...</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <ol>
+            <li>to support Westmont students through events?</li>
+            <li>to support Westmont teachers by providing funding for supplies and activities?</li>
+            <li>to receive the PTSA Daily Bulletin?</li>
+            <li>to help the Westmont Career Center?</li>
+            <li>to receive exclusive National PTA member benefits, newsletters, and offers?</li>
+          </ol>
+        </div>
+        <div class="col-md-6">
+          <ol start="6">
+            <li>to get more involved?</li>
+            <li>to help increase the PTSA's influence?</li>
+            <li>to receive a tax deduction?</li>
+            <li>to support Westmont without volunteering?</li>
+            <li>to directly donate towards student scholarships and programs?</li>
+          </ol>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="icon-box">
+            <i class="fa fa-users fa-3x"></i>
+            <h3>Who</h3>
+            <p>
+              The Westmont High School Parent Teacher Student
+              Association (PTSA) is a private non-profit organization
+              affiliated with the California State PTA and the National PTA.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="icon-box">
+            <i class="fa fa-flask fa-3x"></i>
+            <h3>What</h3>
+            <p>
+              The Westmont PTSA provides funding for many school
+              programs, activities, awards, and supplies that directly
+              benefit students. Through generous donations
+              and volunteer hours, we are able to make Westmont
+              High School a better place for all.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="icon-box">
+            <i class="fa fa-check fa-3x"></i>
+            <h3>How</h3>
+            <p>
+              Parents ($35), students ($10), and teachers ($10) can join by
+              downloading the membership form. Then complete the form, attach
+              a check and send (or bring) it to Westmont’s front office.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 page-title-sub">
+          <h3>Meetings 2014-2015</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Month</th>
+                <th>Association</th>
+                <th>Board</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>January</td>
+                <td>13th</td>
+                <td>27th</td>
+              </tr>
+              <tr>
+                <td>February</td>
+                <td>10th</td>
+                <td>24th</td>
+              </tr>
+              <tr>
+                <td>March</td>
+                <td>10th</td>
+                <td>24th</td>
+              </tr>
+              <tr>
+                <td>April</td>
+                <td>14th</td>
+                <td>28th</td>
+              </tr>
+              <tr>
+                <td>May</td>
+                <td>12th</td>
+                <td>26th</td>
+              </tr>
+              <tr>
+                <td>June</td>
+                <td>None</td>
+                <td>None</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>

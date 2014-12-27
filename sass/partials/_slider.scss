@@ -176,7 +176,7 @@
   margin: 0 0 -120px 0;
 }
 
-.sl-slide blockquote {
+.sl-slide .sl-text {
   position: absolute;
   width: 100%;
   text-align: center;
@@ -191,14 +191,14 @@
   margin: 0 0 -200px 0;
   padding: 0;
 }
-.sl-slide blockquote p{
+.sl-slide .sl-text p{
   margin: 0 auto;
   width: 60%;
   max-width: 400px;
   position: relative;
 }
 
-.sl-slide blockquote p:before {
+.sl-slide .sl-text p:before {
   color: #f0f0f0;
   color: rgba(244,244,244,0.65);
   font-family: "Bookman Old Style", Bookman, Garamond, serif;
@@ -213,7 +213,7 @@
   content: '\201C';
 }
 
-.sl-slide blockquote cite {
+.sl-slide .sl-text cite {
   font-size: 10px;
   padding-top: 10px;
   display: inline-block;
@@ -234,7 +234,7 @@
 .bg-2 h2 {
   color: #fff;
 }
-.bg-2 blockquote:before {
+.bg-2 .sl-text:before {
   color: #222;
 }
 .bg-3 .sl-slide-inner,
@@ -251,11 +251,11 @@
   box-shadow: inset 0 0 0 10px #b55381;
 }
 .bg-3 h2,
-.bg-3 blockquote{
+.bg-3 .sl-text{
   color: #fff;
   text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
 }
-.bg-3 blockquote:before {
+.bg-3 .sl-text:before {
   color: #c46c96;
 }
 .bg-4 .sl-slide-inner,
@@ -270,11 +270,11 @@
   color: #277d87;
 }
 .bg-4 h2,
-.bg-4 blockquote{
+.bg-4 .sl-text{
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
-.bg-4 blockquote:before {
+.bg-4 .sl-text:before {
   color: #379eaa;
 }
 
@@ -284,7 +284,7 @@
 .sl-trans-elems h2{
   animation: moveUp 1s ease-in-out both;
 }
-.sl-trans-elems blockquote{
+.sl-trans-elems .sl-text{
   animation: fadeIn 0.5s linear 0.5s both;
 }
 @keyframes roll{
@@ -306,7 +306,7 @@
 .sl-trans-back-elems h2{
   animation: fadeOut 1s ease-in-out both;
 }
-.sl-trans-back-elems blockquote{
+.sl-trans-back-elems .sl-text{
   animation: fadeOut 1s linear both;
 }
 @keyframes scaleDown{
