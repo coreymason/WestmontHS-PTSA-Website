@@ -1,0 +1,39 @@
+#contact {
+  position: relative;
+  z-index: 2;
+  background: rgba(91,194,206,.8);
+  color: #fff;
+  padding-bottom: 20px;
+}
+#contact h2 span{
+  background: rgba(91,194,206,0);
+}
+#contact a {
+  text-decoration:none;
+  color:#fff;
+}
+
+#mapBackground {
+  height: 620px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -620px;
+}
+
+#contact .form-control {
+  background: rgba(0,0,0,.2) !important;
+  border: 1px solid #569DAC;
+  color: #fff;
+}
+#contact .form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+
+
+
+#map {
+  margin-top:15px;
+  height: 400px;
+  width: 100%;
+}

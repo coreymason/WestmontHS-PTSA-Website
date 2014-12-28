@@ -5,6 +5,26 @@
   position: relative;
   overflow: hidden;
 }
+@media (max-width: 768px) {
+  .sl-slider-wrapper {
+    height: 650px;
+  }
+}
+@media (max-width: 550px) {
+  .sl-slider-wrapper {
+    height: 700px;
+  }
+}
+@media (max-width: 500px) {
+  .sl-slider-wrapper {
+    height: 750px;
+  }
+}
+@media (max-width: 450px) {
+  .sl-slider-wrapper {
+    height: 800px;
+  }
+}
 
 .sl-slider {
   position: absolute;
@@ -196,21 +216,6 @@
   width: 60%;
   max-width: 400px;
   position: relative;
-}
-
-.sl-slide .sl-text p:before {
-  color: #f0f0f0;
-  color: rgba(244,244,244,0.65);
-  font-family: "Bookman Old Style", Bookman, Garamond, serif;
-  position: absolute;
-  line-height: 60px;
-  width: 75px;
-  height: 75px;
-  font-size: 200px;
-  z-index: -1;
-  left: -80px;
-  top: 35px;
-  content: '\201C';
 }
 
 .sl-slide .sl-text cite {
