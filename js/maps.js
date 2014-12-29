@@ -1,3 +1,7 @@
+var paddingBottom = parseInt($('#contact').css('padding-bottom'));
+$('#mapBackground').css('height', $('#contact').height() + paddingBottom);
+$('#mapBackground').css('margin-bottom', 0-$('#contact').height() - paddingBottom);
+
 $('#mapBackground').gMap({
   controls: {
     panControl: false,

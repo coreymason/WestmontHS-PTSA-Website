@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Westmont PTSA</title>
+  <title>WHS PTSA</title>
   <meta name="description" content=""/>
   <meta name="keywords" content="" />
   <meta name="author" content="Corey Mason"/>
@@ -45,6 +45,8 @@
                 <li><a href="#bulletin">Bulletin</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#officers">Officers</a></li>
+                <li><a href="#fundraising">Fundraising</a></li>
+                <li><a href="#forms">Forms</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
@@ -282,7 +284,7 @@
             <img class="img-circle img-responsive" src="http://placehold.it/300x300" alt="Officer">
           </div>
           <div class="name">Michele Mandarino</div>
-          <div class="position">President</div>
+          <div class="name-sub">President</div>
           <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
@@ -295,7 +297,7 @@
             <img class="img-circle img-responsive" src="http://placehold.it/300x300" alt="Officer">
           </div>
           <div class="name">Errica Crome</div>
-          <div class="position">VP of Fundraising</div>
+          <div class="name-sub">VP of Fundraising</div>
           <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
@@ -308,7 +310,7 @@
             <img class="img-circle img-responsive" src="http://placehold.it/300x300" alt="Officer">
           </div>
           <div class="name">Kim Aragon</div>
-          <div class="position">VP of Membership</div>
+          <div class="name-sub">VP of Membership</div>
           <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
@@ -321,7 +323,7 @@
             <img class="img-circle img-responsive" src="http://placehold.it/300x300" alt="Officer">
           </div>
           <div class="name">Nicole Shaddox</div>
-          <div class="position">Secretary</div>
+          <div class="name-sub">Secretary</div>
           <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
@@ -333,19 +335,119 @@
       <div class="row">
         <div class="col-md-3">
           <div class="name">Danh Van</div>
-          <div class="position">Treasurer</div>
+          <div class="name-sub">Treasurer</div>
         </div>
         <div class="col-md-3">
           <div class="name">Laura Saldaña</div>
-          <div class="position">ASB Activities Director</div>
+          <div class="name-sub">ASB Activities Director</div>
         </div>
         <div class="col-md-3">
           <div class="name">Rene Klaus</div>
-          <div class="position">Career Center Coordinator</div>
+          <div class="name-sub">Career Center Coordinator</div>
         </div>
         <div class="col-md-3">
           <div class="name">Suzie Bentley</div>
-          <div class="position">Mini Grant Coordinator</div>
+          <div class="name-sub">Mini Grant Coordinator</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="fundraising">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 page-title">
+          <h2><span>Fundraising</span></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="name">4 Our School</div>
+          <div class="name-sub"><a href="http://www.4ourschool.com/?org=westmont">www.4ourschool.com/?org=westmont</a></div>
+          <p>
+            Your school could be receiving donations up to 5% of your on-line purchases.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="name">Sip To Support</div>
+          <div class="name-sub"><a href="http://www.marqeta.com/programs/jamba">www.marqeta.com/programs/jamba</a></div>
+          <p>
+            When you visit a participating Jamba Juice location, use your Card to
+            pay. 10% of the purchase will be donated to the organization you have
+            selected to support.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="name">eScrip</div>
+          <div class="name-sub"><a href="http://www.escrip.com">www.escrip.com</a></div>
+          <p>
+            You shop, and our merchants give back! Shop online, buy groceries,
+            or dine out to make a difference for the organizations you choose.
+            Westmont PTSA's ID# is 137601875.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="name">Akins Collision Center</div>
+          <div class="name-sub"><a href="http://www.callakins.com">www.callakins.com</a></div>
+          <p>
+            They are an AAA (along with other insurance companies) approved shop.
+            Just tell them you are from Westmont High School and we will receive
+            2% of the repair cost.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="name">Cisco</div>
+          <div class="name-sub"><a href="http://www.cisco.com">www.cisco.com</a></div>
+          <p>
+            Westmont High School has been added to the Cisco Systems charity list!
+            Cisco employees may now dedicate money or time to Westmont and Cisco
+            will match their dollars or hours.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="name">Advertise Here</div>
+          <div class="name-sub"><a href="#contact">Contact Us</a></div>
+          <p>
+            For a $150 donation to PTSA, we will create a banner with your logo
+            to be displayed at our fundraisers and on our website (along with a
+            link) for the entire year.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="forms">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 page-title">
+          <h2><span>Forms</span></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <ul>
+            <li><a href="#" >Membership Form</a></li>
+            <li><a href="#" >Mini Grant Request Form</a></li>
+            <li><a href="#" >PTSA Volunteer Form</a></li>
+            <li><a href="#" >Reimbursement Form</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li><a href="#" >PTSA Expense Advance Request</a></li>
+            <li><a href="#" >PTSA Executive Board Nomination Form</a></li>
+            <li><a href="#" >PTSA Executive Board role descriptions</a></li>
+            <li><a href="#" >Student & Teacher Membership Form</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li><a href="#" >Flamingo Flocking Flyer</a></li>
+            <li><a href="#" >Flamingo Flocking Order Form</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -386,7 +488,16 @@
   </div>
 
   <footer>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>
+            Copyright &copy;2014-<script>document.write(new Date().getFullYear())</script><noscript>2015</noscript> Westmont High School PTSA
+            &nbsp;&nbsp;&bull;&nbsp;&nbsp; Website by <a href="http://coreymason.net" alt="Author">Corey Mason</a>
+          </p>
+        </div>
+      </div>
+    </div>
   </footer>
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>

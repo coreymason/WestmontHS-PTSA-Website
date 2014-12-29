@@ -1,7 +1,7 @@
 #officers {
   background: #fff;
   color: #414141;
-  margin-bottom:10px
+  padding-bottom:10px;
 }
 #officers i {
   color: #414141;
@@ -9,28 +9,28 @@
 #officers h2 {
   color: #414141;
 }
-#officers h2 span{
+#officers h2 span {
   background: #fff;
   color: #414141;
 }
 
-#officers .page-title h2:before{
+#officers .page-title h2:before {
   background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
 }
 #officers .page-title h2:after {
   background: linear-gradient(to right,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
 }
 
-#officers .profile {
+.profile {
   padding: 20px;
   float:left;
 }
-#officers .name {
+.name {
   padding: 0px 0px 5px 0px;
   font-size: 18px;
   text-align: center;
 }
-#officers .position {
+.name-sub {
   font-size: 12px;
   font-weight: normal;
   text-align: center;

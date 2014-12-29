@@ -14,11 +14,11 @@
 }
 
 #mapBackground {
-  height: 620px;
+  //height is set in maps.js
   width: 100%;
   position: relative;
   z-index: 1;
-  margin-bottom: -620px;
+  //margin-bottom is set in maps.js
 }
 
 #contact .form-control {
@@ -30,10 +30,33 @@
   color: #fff;
 }
 
-
-
 #map {
   margin-top:15px;
   height: 400px;
   width: 100%;
+}
+
+@media (max-width: 992px) {
+  .page-title h2:before,
+  .page-title h2:after {
+    width: 35%;
+  }
+}
+@media (max-width: 700px) {
+  .page-title h2:before,
+  .page-title h2:after {
+    width: 30%;
+  }
+}
+@media (max-width: 550px) {
+  .page-title h2:before,
+  .page-title h2:after {
+    width: 25%;
+  }
+}
+@media (max-width: 450px) {
+  .page-title h2:before,
+  .page-title h2:after {
+    width: 20%;
+  }
 }
