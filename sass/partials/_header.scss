@@ -39,10 +39,10 @@ header {
     transition: all 0.3s ease-in-out;
   }
 
-  .navbar .nav > li > a:focus,
+  .active,
   .navbar .nav > li > a:hover {
     background: #080808 !important;
-    color: #fff;
+    color: #fff !important;
   }
 
   .navigation {
