@@ -7,6 +7,10 @@ header {
   z-index: 9999;
 }
 
+.navbar-brand > img {
+    width:63px; //max for retina support
+}
+
 @media (min-width: 768px) {
   .navbar {
     margin:0px;
@@ -47,5 +51,13 @@ header {
 
   .navigation {
     height: 38px !important;
+  }
+  
+  a.navbar-brand {
+    color: #414141 !important;
+  }
+
+  .logo {
+    padding-top:4px;
   }
 }

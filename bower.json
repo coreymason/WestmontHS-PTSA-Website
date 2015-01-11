@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "bootstrap-sass-official": "latest",
-    "fontawesome": "latest"
+    "fontawesome": "latest",
+    "jquery.scrollTo": "latest"
   }
 }
