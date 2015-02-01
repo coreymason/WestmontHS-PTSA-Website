@@ -62,7 +62,7 @@
 .ch-info-wrap {
   top: 20px;
   left: 20px;
-  background: #f9f9f9 url(../images/bg.jpg);
+  background: #fff;
   box-shadow:
   0 0 0 20px rgba(255,255,255,0.2),
   inset 0 0 3px rgba(115,114, 23, 0.8);
@@ -79,39 +79,25 @@
   -webkit-backface-visibility: hidden; /*Just for webkit to have a smooth font*/
 }
 .ch-info .ch-info-front {
-  -webkit-transition: all 0.6s ease-in-out;
-  -moz-transition: all 0.6s ease-in-out;
-  -o-transition: all 0.6s ease-in-out;
-  -ms-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
 }
 .ch-info .ch-info-back {
   opacity: 0;
-
   background: #223e87;
   pointer-events: none;
-
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  -ms-transform: scale(1.5);
   transform: scale(1.5);
-
-  -webkit-transition: all 0.4s ease-in-out 0.2s;
-  -moz-transition: all 0.4s ease-in-out 0.2s;
-  -o-transition: all 0.4s ease-in-out 0.2s;
-  -ms-transition: all 0.4s ease-in-out 0.2s;
   transition: all 0.4s ease-in-out 0.2s;
 }
 
-.ch-img-1 {
-  background-image: url(http://placehold.it/220x220);
-}
-.ch-img-2 {
-  background-image: url(http://placehold.it/220x220);
-}
-.ch-img-3 {
-  background-image: url(http://placehold.it/220x220);
+@for $i from 1 through 11 {
+  .ch-img-#{$i} {
+    background-image: url(http://placehold.it/440x440);
+    background-size: 220px 220px;
+    background-repeat: no-repeat;
+    display: block;
+    width: 220px;
+    height: 220px;
+  }
 }
 
 .ch-info h3 {
@@ -153,22 +139,12 @@
 }
 
 .ch-item:hover .ch-info-front {
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -o-transform: scale(0);
-  -ms-transform: scale(0);
   transform: scale(0);
-
   opacity: 0;
 }
 
 .ch-item:hover .ch-info-back {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -o-transform: scale(1);
-  -ms-transform: scale(1);
   transform: scale(1);
-
   opacity: 1;
   pointer-events: auto;
 }

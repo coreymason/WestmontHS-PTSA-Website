@@ -28,7 +28,7 @@ module.exports = function(grunt) {
         autoprefixer: {
             dev: {
                 options: {
-                	browsers: ['> 1%', 'Android >= 2.1', 'Chrome >= 21', 'Explorer >= 7', 'Firefox >= 17', 'Opera >= 12.1', 'Safari >= 6.0']
+                	browsers: ['> 1%']
                 },
                 src: 'style.css'
             }
