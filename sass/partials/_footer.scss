@@ -4,7 +4,7 @@ footer {
   background: #fff;
   color: #414141;
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   text-align: center;
 }
 footer i {
@@ -13,4 +13,38 @@ footer i {
 
 footer p {
   margin: 0px;
+}
+
+#social {
+  display: inline-block;
+  padding-top: 10px;
+}
+#social a {
+  width: 28px;
+  height: 28px;
+  margin: 0 6px 6px 0;
+  display: block;
+  float: left;
+  text-indent: -9999px;
+  background-position: 0 0px;
+  transition: all 0.3s ease-in-out;
+}
+#social a:hover {
+  width: 28px;
+  height: 28px;
+  margin: 0 6px 6px 0;
+  display: block;
+  float: left;
+  text-indent: -9999px;
+  background-position: 0 -38px;
+}
+#social a img{
+  border: none;
+}
+
+.facebook {
+  background: url(img/page.png) no-repeat;
+}
+.github {
+  background: url(img/github.png) no-repeat;
 }
