@@ -15,11 +15,11 @@ footer p {
   margin: 0px;
 }
 
-#social {
+#s {
   display: inline-block;
   padding-top: 10px;
 }
-#social a {
+#s a {
   width: 28px;
   height: 28px;
   margin: 0 6px 6px 0;
@@ -29,7 +29,7 @@ footer p {
   background-position: 0 0px;
   transition: all 0.3s ease-in-out;
 }
-#social a:hover {
+#s a:hover {
   width: 28px;
   height: 28px;
   margin: 0 6px 6px 0;
@@ -38,7 +38,7 @@ footer p {
   text-indent: -9999px;
   background-position: 0 -38px;
 }
-#social a img{
+#s a img{
   border: none;
 }
 
