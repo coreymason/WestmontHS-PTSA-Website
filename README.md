@@ -2,9 +2,9 @@
 
 ## Synopsis:
 
-### Current Version: In Development
+### Current Version: No longer In Use
 
-This repository hosts the Westmont High School PTSA website, http://www.westmontptsa.org. This project utilizes Bower to maintain packages and Grunt as a taskrunner; both ruby and Node.js are required for development.
+This repository hosts the old Westmont High School PTSA website and can now be viewed at http://www.coreysmason.com/ptsa. This project utilizes Bower to maintain packages and Grunt as a taskrunner; both ruby and Node.js are required for development.
 
 ## Contributors
 
@@ -25,7 +25,7 @@ This repository hosts the Westmont High School PTSA website, http://www.westmont
 * ```bumpto:(major/minor/patch)```: Updates the version number in all relevant files.
 
 ### Deploying
-* ```.ftppass``` is required for deployment directly to http://www.westmontptsa.org
+* ```.ftppass``` is required for direct deployment
 
 ## License
 
@@ -33,4 +33,4 @@ This theme and all of its components are licensed under the GPLv3 license.
 
 ## Author
 
-### Corey Mason - http://www.coreymason.net
+### Corey Mason - http://www.coreysmason.com
